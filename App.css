@@ -1,0 +1,28 @@
+.landing-page {
+  background-image: url('https://cdn.pixabay.com/photo/2018/04/06/11/49/plant-3295826_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.get-started-btn {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.get-started-btn:hover {
+  background-color: #45a049;
+}
